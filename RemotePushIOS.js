@@ -1,8 +1,10 @@
-var RemotePushManager = require("NativeModules").RemotePushManager;
 var React = require("react-native");
 
 var {
-    DeviceEventEmitter
+    DeviceEventEmitter,
+    NativeModules {
+        RemotePushManager
+    }
 } = React;
 
 const REGISTERED_FOR_REMOTE = "registeredForRemoteNotifications";
