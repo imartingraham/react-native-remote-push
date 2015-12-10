@@ -2,7 +2,7 @@ var React = require("react-native");
 
 var {
     DeviceEventEmitter,
-    NativeModules {
+    NativeModules: {
         RemotePushManager
     }
 } = React;
